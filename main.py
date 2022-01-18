@@ -85,19 +85,6 @@ def search():
         else:
             messagebox.showinfo('Error', f'Website is not saved')
 
-    # with open('data.txt') as data_file:
-    #     data = data_file.readlines()
-    #     message = ""
-    #     found = 0
-    #     print(type(website_entry.get()))
-    # for d in data[2:]:
-    #     x = d.split()
-    #     if x[0].title() == website_entry.get().title():
-    #         message += f'Email: {email_entry.get()}\nPassword: {x[4]}\n\n'
-    #         found += 1
-    # if found > 0:
-    #     messagebox.showinfo(website_entry.get(), message)
-
 
 # ---------------------------- UI SETUP ------------------------------- #
 # window:
